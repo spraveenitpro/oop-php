@@ -13,6 +13,8 @@ class Render
         return $output;
     }
 
+
+
     public static function listIngredients($ingredients)
     {
         $output ="";
@@ -45,6 +47,12 @@ class Render
         $output .=$recipe->getYield();
 
         return $output;
+    }
+
+    public static function listRecipes($titles)
+    {
+        asort($titles);
+        return implode("\n", $titles );
     }
     
 }

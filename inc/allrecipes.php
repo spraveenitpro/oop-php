@@ -29,7 +29,7 @@
  * $spicy_omelette
  * $scones
  *
-*/
+ */
 
 $lemon_chicken = new Recipe("Italian Lemon Chicken");
 
